@@ -1,0 +1,36 @@
+ .jumbotron {
+    background-color: #f4f2f2;
+    padding:50px;
+    border-radius: 5px;
+ }
+
+ .adjust-form {
+   background-color: #f4f2f2;
+   padding:30px;
+   border-radius: 5px;
+   width: 65%;
+   margin:auto;
+ }
+
+ .adjust-list {
+   background-color: #f4f2f2;
+   padding:30px;
+   border-radius: 5px;
+   width: 65%;
+   margin:auto;
+ }
+
+ .adjust-list li {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ @media (max-width: 560px) {
+  .adjust-form {
+    width: 80%;
+  }
+ 
+  .adjust-list {
+    width:100%;
+  }
+}
